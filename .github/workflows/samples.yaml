@@ -14,6 +14,10 @@
 # Github action job to test core java library features on
 # downstream client libraries before they are released.
 on:
+  push:
+    branches:
+    - main
+    - compatibility-check
   pull_request:
 name: samples
 jobs:

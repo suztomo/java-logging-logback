@@ -17,6 +17,7 @@ on:
   push:
     branches:
     - main
+    - compatibility-check
   pull_request:
 name: ci
 jobs:
